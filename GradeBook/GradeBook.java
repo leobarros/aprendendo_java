@@ -6,7 +6,7 @@ public class GradeBook
 {
   private String courseName; // nome do curso para esse GradeBook
 
-  public void setCourseName(String name) 
+  public void setCourseName(String name)
   {
     couseName = name;
   }
@@ -18,6 +18,6 @@ public class GradeBook
 
   public void displayMessage()
   {
-    System.out.printf("Welcome to the GradeBook for\n%s!\n" getCourseName());
+    System.out.printf("Welcome to the GradeBook for\n%s!\n", getCourseName());
   }
 }
