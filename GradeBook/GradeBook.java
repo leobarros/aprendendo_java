@@ -8,7 +8,7 @@ public class GradeBook
 
   public void setCourseName(String name)
   {
-    couseName = name;
+    courseName = name;
   }
 
   public String getCourseName()
